@@ -6,7 +6,7 @@ import {
     Button
 } from 'react-native'
 
-
+import FetchApi from '../components/FetchApi';
 import Support from '../components/Support';
 import Headers from '../components/Header';
 import Banner from '../components/Banner';
@@ -19,6 +19,7 @@ const Home = ({ navigation }) => {
                 <Headers />
                 <Banner />
                 <Support />
+                <FetchApi />
             </View>
         </View>
     )
